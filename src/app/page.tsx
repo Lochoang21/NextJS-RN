@@ -1,8 +1,9 @@
 import HomePage from "@/components/layout/homepage";
-import { signIn } from "@/auth"
-import { Button } from "antd";
+import { auth } from "@/auth"
 
-export default function Home() {
+
+export default async function Home() {
+  
   return (
     <div>
       <HomePage />
